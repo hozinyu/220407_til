@@ -1,0 +1,38 @@
+/* 1단계 이미지를 디자인처럼 만들기
+    2단계 초록 동그라미 만들기
+    3단계 할 수 있는 범위에서 배치하기
+    4단계 레이아웃 잡기 (포지션 이용)
+    5단계 마무리작업 */
+
+img { width: 40px; height: 40px;
+    border-radius: 50%;
+    }
+
+.status { 
+    background-color: #21D891;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    right: 0px; bottom: 0px;
+    }
+
+h1 { font-size: 16px;
+    font-weight: 400;
+    
+   }
+
+.user-photo,
+.user-name { float: left;}
+/*  user-photo class 전체에 안주고 img에만 ㄴㄴ */
+.user-card { width: 240px; padding:8px 12px;
+border: 1px solid #E5EAEF;
+border-radius: 4px;
+}
+.user-card::after {
+    content: "";
+    clear: left;
+    display: block;
+}
+.user-photo {position: relative;
+    margin-right: 12px;}

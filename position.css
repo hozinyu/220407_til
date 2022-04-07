@@ -1,0 +1,26 @@
+* {color: white;
+font-weight: 600;}
+
+.grandparents { width: 600px;
+            background-color: black;
+        text-align: end; 
+   }
+
+
+.parents { width:400px;
+            background-color: gainsboro;
+        }
+
+.red { width: 200px;
+    height: 200px;
+    background-color: red;
+    
+    }
+
+.yellow { width: 250px;
+    height: 250px;
+    background-color: yellow;
+    color: black;
+ 
+}
+
